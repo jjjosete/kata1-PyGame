@@ -32,11 +32,11 @@ class Bola():
 
 bolas = []
 for i in range(10):
-    bola = Bola( randint(0, ANCHO),
-    randint(0, ALTO),
-    choice(newValues),
-    choice(newValues),
-    (randint(0, 255), randint(0, 255), randint(0, 255)))
+    bola = Bola(randint(0, ANCHO),
+                randint(0, ALTO),
+                choice(newValues),
+                choice(newValues),
+                (randint(0, 255), randint(0, 255), randint(0, 255)))
     
 
     bolas.append(bola)
